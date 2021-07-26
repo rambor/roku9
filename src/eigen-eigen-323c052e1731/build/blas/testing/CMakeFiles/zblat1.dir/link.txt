@@ -1,0 +1,1 @@
+/usr/local/Cellar/gcc/8.3.0_2/bin/gfortran   -O3 -DNDEBUG -O3 CMakeFiles/zblat1.dir/zblat1.f.o  -o zblat1 ../libeigen_blas.dylib 

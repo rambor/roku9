@@ -1,0 +1,234 @@
+The system is: Darwin - 16.7.0 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/Cellar/gcc/8.3.0_2/bin/g++-8 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/xos81802/src_libs/cpd-master/examples/build/CMakeFiles/3.15.2/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/xos81802/src_libs/cpd-master/examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7b382/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7b382.dir/build.make CMakeFiles/cmTC_7b382.dir/build
+Building CXX object CMakeFiles/cmTC_7b382.dir/testCXXCompiler.cxx.o
+/usr/local/Cellar/gcc/8.3.0_2/bin/g++-8     -o CMakeFiles/cmTC_7b382.dir/testCXXCompiler.cxx.o -c /Users/xos81802/src_libs/cpd-master/examples/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_7b382
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b382.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.3.0_2/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7b382.dir/testCXXCompiler.cxx.o  -o cmTC_7b382 
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/xos81802/src_libs/cpd-master/examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b8a03/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b8a03.dir/build.make CMakeFiles/cmTC_b8a03.dir/build
+Building CXX object CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/Cellar/gcc/8.3.0_2/bin/g++-8    -v -Wl,-v -o CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/local/Cellar/gcc/8.3.0_2/bin/g++-8
+Target: x86_64-apple-darwin16
+Configured with: ../configure --build=x86_64-apple-darwin16 --prefix=/usr/local/Cellar/gcc/8.3.0_2 --libdir=/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --with-pkgversion='Homebrew GCC 8.3.0_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues
+Thread model: posix
+gcc version 8.3.0 (Homebrew GCC 8.3.0_2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=10.12.0' '-asm_macosx_version_min=10.12' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/cc1plus -quiet -v -D__DYNAMIC__ /opt/local/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpbase CMakeCXXCompilerABI.cpp -mmacosx-version-min=10.12.0 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o -version -o /var/folders/mv/v8b5q89s3jb9mnpfnr_kg2x40000gr/T//cc7dA064.s
+GNU C++14 (Homebrew GCC 8.3.0_2) version 8.3.0 (x86_64-apple-darwin16)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../x86_64-apple-darwin16/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../include/c++/8.3.0
+ /usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin16
+ /usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../include/c++/8.3.0/backward
+ /usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/include
+ /usr/local/include
+ /usr/local/Cellar/gcc/8.3.0_2/include
+ /usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/include-fixed
+ /usr/include
+ /System/Library/Frameworks
+ /Library/Frameworks
+End of search list.
+GNU C++14 (Homebrew GCC 8.3.0_2) version 8.3.0 (x86_64-apple-darwin16)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 44b5194d7fc2135fb77252c79ec71a1e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=10.12.0'  '-shared-libgcc' '-mtune=core2'
+ as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.12 -o CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mv/v8b5q89s3jb9mnpfnr_kg2x40000gr/T//cc7dA064.s
+Apple LLVM version 9.0.0 (clang-900.0.37)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple x86_64-apple-macosx10.12.0 -filetype obj -main-file-name cc7dA064.s -target-cpu penryn -fdebug-compilation-dir /Users/xos81802/src_libs/cpd-master/examples/build/CMakeFiles/CMakeTmp -dwarf-debug-producer Apple LLVM version 9.0.0 (clang-900.0.37) -dwarf-version=4 -mrelocation-model pic -o CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mv/v8b5q89s3jb9mnpfnr_kg2x40000gr/T//cc7dA064.s
+COMPILER_PATH=/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/:/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/
+LIBRARY_PATH=/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=10.12.0'  '-shared-libgcc' '-mtune=core2'
+Linking CXX executable cmTC_b8a03
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8a03.dir/link.txt --verbose=1
+/usr/local/Cellar/gcc/8.3.0_2/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b8a03 
+Using built-in specs.
+COLLECT_GCC=/usr/local/Cellar/gcc/8.3.0_2/bin/g++-8
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/lto-wrapper
+Target: x86_64-apple-darwin16
+Configured with: ../configure --build=x86_64-apple-darwin16 --prefix=/usr/local/Cellar/gcc/8.3.0_2 --libdir=/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --with-pkgversion='Homebrew GCC 8.3.0_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues
+Thread model: posix
+gcc version 8.3.0 (Homebrew GCC 8.3.0_2) 
+COMPILER_PATH=/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/:/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/
+LIBRARY_PATH=/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b8a03' '-mmacosx-version-min=10.12.0' '-asm_macosx_version_min=10.12' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.12.0 -weak_reference_mismatches non-weak -o cmTC_b8a03 -L/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0 -L/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 8.3.0
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.12.0 -weak_reference_mismatches non-weak -o cmTC_b8a03 -L/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0 -L/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-302.3
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+@(#)PROGRAM:ld  PROJECT:ld64-302.3
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0
+	/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ /usr/bin/nm -n CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../include/c++/8.3.0]
+    add: [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin16]
+    add: [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../include/c++/8.3.0/backward]
+    add: [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/include]
+    add: [/usr/local/include]
+    add: [/usr/local/Cellar/gcc/8.3.0_2/include]
+    add: [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/include-fixed]
+    add: [/usr/include]
+    add: [/System/Library/Frameworks]
+    add: [/Library/Frameworks]
+  end of search list found
+  collapse include dir [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../include/c++/8.3.0] ==> [/usr/local/Cellar/gcc/8.3.0_2/include/c++/8.3.0]
+  collapse include dir [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin16] ==> [/usr/local/Cellar/gcc/8.3.0_2/include/c++/8.3.0/x86_64-apple-darwin16]
+  collapse include dir [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../include/c++/8.3.0/backward] ==> [/usr/local/Cellar/gcc/8.3.0_2/include/c++/8.3.0/backward]
+  collapse include dir [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/include] ==> [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/local/Cellar/gcc/8.3.0_2/include] ==> [/usr/local/Cellar/gcc/8.3.0_2/include]
+  collapse include dir [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/include-fixed] ==> [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  collapse include dir [/System/Library/Frameworks] ==> [/System/Library/Frameworks]
+  collapse include dir [/Library/Frameworks] ==> [/Library/Frameworks]
+  implicit include dirs: [/usr/local/Cellar/gcc/8.3.0_2/include/c++/8.3.0;/usr/local/Cellar/gcc/8.3.0_2/include/c++/8.3.0/x86_64-apple-darwin16;/usr/local/Cellar/gcc/8.3.0_2/include/c++/8.3.0/backward;/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/include;/usr/local/include;/usr/local/Cellar/gcc/8.3.0_2/include;/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/include-fixed;/usr/include;/System/Library/Frameworks;/Library/Frameworks]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/xos81802/src_libs/cpd-master/examples/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_b8a03/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b8a03.dir/build.make CMakeFiles/cmTC_b8a03.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/Cellar/gcc/8.3.0_2/bin/g++-8    -v -Wl,-v -o CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/Cellar/gcc/8.3.0_2/bin/g++-8]
+  ignore line: [Target: x86_64-apple-darwin16]
+  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin16 --prefix=/usr/local/Cellar/gcc/8.3.0_2 --libdir=/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --with-pkgversion='Homebrew GCC 8.3.0_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Homebrew GCC 8.3.0_2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=10.12.0' '-asm_macosx_version_min=10.12' '-shared-libgcc' '-mtune=core2']
+  ignore line: [ /usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/cc1plus -quiet -v -D__DYNAMIC__ /opt/local/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpbase CMakeCXXCompilerABI.cpp -mmacosx-version-min=10.12.0 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o -version -o /var/folders/mv/v8b5q89s3jb9mnpfnr_kg2x40000gr/T//cc7dA064.s]
+  ignore line: [GNU C++14 (Homebrew GCC 8.3.0_2) version 8.3.0 (x86_64-apple-darwin16)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../x86_64-apple-darwin16/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../include/c++/8.3.0]
+  ignore line: [ /usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin16]
+  ignore line: [ /usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../../../../include/c++/8.3.0/backward]
+  ignore line: [ /usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/local/Cellar/gcc/8.3.0_2/include]
+  ignore line: [ /usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [ /System/Library/Frameworks]
+  ignore line: [ /Library/Frameworks]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Homebrew GCC 8.3.0_2) version 8.3.0 (x86_64-apple-darwin16)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 44b5194d7fc2135fb77252c79ec71a1e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=10.12.0'  '-shared-libgcc' '-mtune=core2']
+  ignore line: [ as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.12 -o CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mv/v8b5q89s3jb9mnpfnr_kg2x40000gr/T//cc7dA064.s]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.37)]
+  ignore line: [Target: x86_64-apple-darwin16.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple x86_64-apple-macosx10.12.0 -filetype obj -main-file-name cc7dA064.s -target-cpu penryn -fdebug-compilation-dir /Users/xos81802/src_libs/cpd-master/examples/build/CMakeFiles/CMakeTmp -dwarf-debug-producer Apple LLVM version 9.0.0 (clang-900.0.37) -dwarf-version=4 -mrelocation-model pic -o CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mv/v8b5q89s3jb9mnpfnr_kg2x40000gr/T//cc7dA064.s]
+  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/:/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/]
+  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=10.12.0'  '-shared-libgcc' '-mtune=core2']
+  ignore line: [Linking CXX executable cmTC_b8a03]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8a03.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/Cellar/gcc/8.3.0_2/bin/g++-8    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b8a03 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/Cellar/gcc/8.3.0_2/bin/g++-8]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-apple-darwin16]
+  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin16 --prefix=/usr/local/Cellar/gcc/8.3.0_2 --libdir=/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --with-pkgversion='Homebrew GCC 8.3.0_2' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Homebrew GCC 8.3.0_2) ]
+  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/:/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/]
+  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/:/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b8a03' '-mmacosx-version-min=10.12.0' '-asm_macosx_version_min=10.12' '-shared-libgcc' '-mtune=core2']
+  link line: [ /usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.12.0 -weak_reference_mismatches non-weak -o cmTC_b8a03 -L/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0 -L/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
+    arg [/usr/local/Cellar/gcc/8.3.0_2/libexec/gcc/x86_64-apple-darwin16/8.3.0/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.12.0] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b8a03] ==> ignore
+    arg [-L/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0] ==> dir [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0]
+    arg [-L/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../..] ==> dir [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_b8a03.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-v] ==> ignore
+  Library search paths: [;/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0;/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [System]
+  collapse library dir [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0] ==> [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0]
+  collapse library dir [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0/../../..] ==> [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8]
+  collapse library dir [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0] ==> [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0]
+  collapse library dir [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8] ==> [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [stdc++;gcc_ext.10.5;gcc]
+  implicit dirs: [/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8/gcc/x86_64-apple-darwin16/8.3.0;/usr/local/Cellar/gcc/8.3.0_2/lib/gcc/8;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+

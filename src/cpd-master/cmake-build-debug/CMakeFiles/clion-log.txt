@@ -1,0 +1,19 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/xos81802/src_libs/cpd-master
+-- The CXX compiler identification is AppleClang 9.0.0.9000037
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+  Could NOT find Eigen3 (missing: EIGEN3_INCLUDE_DIR EIGEN3_VERSION_OK)
+  (Required is at least version "2.91.0")
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake:377 (_FPHSA_FAILURE_MESSAGE)
+  cmake/FindEigen3.cmake:76 (find_package_handle_standard_args)
+  CMakeLists.txt:26 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/xos81802/src_libs/cpd-master/cmake-build-debug/CMakeFiles/CMakeOutput.log".

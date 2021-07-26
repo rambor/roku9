@@ -1,0 +1,5 @@
+MESSAGE("** SUPPORT INCLUDE => ${CMAKE_BINARY_DIR}")
+configure_file("${CMAKE_SOURCE_DIR}/tests/support.hpp.in" "${CMAKE_BINARY_DIR}/tests/support.hpp")
+configure_file("${CMAKE_SOURCE_DIR}/tests/aligner.inp.in" "${CMAKE_BINARY_DIR}/tests/aligner.inp")
+configure_file("${CMAKE_SOURCE_DIR}/lib/libgcc_s.1.dylib" "${CMAKE_BINARY_DIR}/lib/libgcc_s.1.dylib" COPYONLY)
+configure_file("${CMAKE_SOURCE_DIR}/lib/libstdc++.6.dylib" "${CMAKE_BINARY_DIR}/lib/libstdc++.6.dylib" COPYONLY)

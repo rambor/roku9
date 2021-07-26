@@ -1,0 +1,15 @@
+/usr/local/lib/cmake/cpd/cpd-config.cmake
+/usr/local/lib/cmake/cpd/cpd-config-version.cmake
+/usr/local/lib/libcpd.a
+/usr/local/include/cpd/affine.hpp
+/usr/local/include/cpd/gauss_transform.hpp
+/usr/local/include/cpd/gauss_transform_fgt.hpp
+/usr/local/include/cpd/matrix.hpp
+/usr/local/include/cpd/nonrigid.hpp
+/usr/local/include/cpd/normalization.hpp
+/usr/local/include/cpd/rigid.hpp
+/usr/local/include/cpd/transform.hpp
+/usr/local/include/cpd/utils.hpp
+/usr/local/include/cpd/version.hpp
+/usr/local/lib/cmake/cpd/cpd-targets.cmake
+/usr/local/lib/cmake/cpd/cpd-targets-noconfig.cmake

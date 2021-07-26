@@ -1,0 +1,14 @@
+-I/Users/xos81802/CLionProjects/aligner/src/eigen-eigen-323c052e1731
+-I/Users/xos81802/CLionProjects/aligner/src/eigen-eigen-323c052e1731/build
+-I/Users/xos81802/EMAN2/include/qt
+-I/Users/xos81802/EMAN2/include/qt/QtOpenGL
+-I/Users/xos81802/EMAN2/include/qt/QtGui
+-I/Users/xos81802/EMAN2/include/qt/QtCore
+-I/Users/xos81802/EMAN2/include/qt
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_OPENGL_LIB
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-o
+/Users/xos81802/CLionProjects/aligner/src/eigen-eigen-323c052e1731/build/demos/opengl/quaternion_demo.moc
+/Users/xos81802/CLionProjects/aligner/src/eigen-eigen-323c052e1731/demos/opengl/quaternion_demo.h

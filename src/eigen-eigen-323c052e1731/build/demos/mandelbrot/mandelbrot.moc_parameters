@@ -1,0 +1,7 @@
+-I/Users/xos81802/CLionProjects/aligner/src/eigen-eigen-323c052e1731
+-I/Users/xos81802/CLionProjects/aligner/src/eigen-eigen-323c052e1731/build
+-I/Users/xos81802/EMAN2/include/qt
+-DNDEBUG
+-o
+/Users/xos81802/CLionProjects/aligner/src/eigen-eigen-323c052e1731/build/demos/mandelbrot/mandelbrot.moc
+/Users/xos81802/CLionProjects/aligner/src/eigen-eigen-323c052e1731/demos/mandelbrot/mandelbrot.h
